@@ -32,5 +32,21 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
     MatBadgeModule,
     MatSnackBarModule,
   ],
+  exports: [
+    CommonModule,
+    MatTableModule,
+    MatSidenavModule,
+    MatGridListModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule,
+    MatExpansionModule,
+    MatListModule,
+    MatToolbarModule,
+    MatTableModule,
+    MatBadgeModule,
+    MatSnackBarModule,
+  ],
 })
 export class AppModule {}
